@@ -1,0 +1,15 @@
+/* nav component */
+.navbar {
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+
+.navbar .container ul {
+    display: flex;
+}
+.navbar .container li {
+    cursor: pointer;
+    list-style-type: none;
+    margin: 0 20px;
+}

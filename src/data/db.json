@@ -1,0 +1,22 @@
+{
+  "trips": [
+    {
+      "id": 1,
+      "name": "chaung thar",
+      "price": "200000",
+      "location": "Myanmar"
+    },
+    {
+      "id": 2,
+      "name": "Ngwe saung",
+      "price": "122000",
+      "location": "Myanmar"
+    },
+    {
+      "id": 3,
+      "name": "new york",
+      "price": "4990000",
+      "location": "US"
+    }
+  ]
+}
