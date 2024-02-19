@@ -39,7 +39,7 @@ function App() {
           <Postform addPost={addPost} />
         </Modal>
       )}
-      <Triplists></Triplists>
+      <Triplists/>
     </>
   );
 }
