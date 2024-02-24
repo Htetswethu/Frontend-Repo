@@ -6,10 +6,12 @@ function useFetch(url) {
   let [error, setError] = useState(null);
 
   useEffect(() => {
-
+    // clean up function
     let abortController = new AbortController();
     let signal = abortController.signal
+    //setting loading true
     setLoading(true);
+    //fetching url  
     fetch(url,{
         signal
     })
@@ -27,7 +29,7 @@ function useFetch(url) {
       .catch(e=>{
         setError(e.message);
       })
-       
+       //clean up function
       return ()=>{
         abortController.abort()
       }
